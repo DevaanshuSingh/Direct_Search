@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Document</title>
     <style>
         * {
@@ -18,22 +18,17 @@
 
         input {
             width: 50%;
+            background-color: rgba(150, 0, 0, .8);
+            color: white;
         }
     </style>
 </head>
 
 <body>
-    <form action="go.php" method="post">
-        <label for="search">Please Enter The Content You Want Search In Youtube:</label><br>
-        <input type="text" name="search">
-        <button>Search</button>
-    </form>
-    <script>
-        for (let index = 0; index < s.length; index++) {
-            alert(s.length);
-        }
-
-    </script>
+    <form action="go.php" method="GET" class="frm">
+        <label for="search">Please Enter Content You Want To Search In YouTube:</label><br>
+        <input type="text" name="search" class="inpt">
+        <button >Search</button>
 </body>
 
 </html>
