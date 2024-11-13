@@ -50,8 +50,7 @@
     $final .= $search;
     ?>
     <div class="card text-center d-flex-row p-5">
-        <a target="_blank" href="<?php echo $final ?>" class="btn btn-success h-20">Go For
-            <span><?php echo strtoupper($_GET['search']); ?></span></a>
+        <a target="_blank" href="<?php echo $final ?>" class="btn btn-success h-20"><strong><u>Go For<span><?php echo strtoupper($_GET['search']); ?></u></strong></span></a>
         <?php
         echo "<meta http-equiv='$final' content='ApvK67ociHgr2egd6c2ZjrfPuRs8BHcvSggogIOPQNH7GJ3cVlyJ1NOq/COCdj0+zxskqHt9HgLLETc8qqD+vwsAAABteyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJQcml2YWN5U2FuZGJveEFkc0FQSXMiLCJleHBpcnkiOjE2OTUxNjc5OTksImlzU3ViZG9tYWluIjp0cnVlfQ=='>";
         ?>
